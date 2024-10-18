@@ -1,0 +1,24 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 120px;
+}
+.home-container h1{
+    font-size: 40pt;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+.home-container p{
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.966);
+}
+.home-container img{
+    width: 400px;
+}
+.h-c-text{
+    background-color: #252525;
+    padding: 15px;
+    max-width: 600px;
+}
