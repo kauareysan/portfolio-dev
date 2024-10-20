@@ -1,8 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
 .about-me-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
     background-color: #252525;
     width: 90%;
-    height: 70%;
+    height: 1000px;
+    border-radius: 20px;
+    padding: 55px 80px;
+}
+.a-m-c-first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.a-m-image-container{
+    background-color: rgba(17, 17, 17, 0.904);
+    border-radius: 30px;
 }
 .a-m-image-container img{
-    width: 400px;
+    width: 450px;
+}
+
+.a-m-texto-container{
+    width: 500px;
+}
+.a-m-texto-container h1{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 18pt;
+    color: greenyellow;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.a-m-texto-container p {
+    font-family:  "Afacad Flux", sans-serif;
+    color: rgba(236, 236, 236, 0.829);
+}
+.a-m-skills-container{
+    font-family: "Playwrite GB S", cursive;
+    color: rgba(172, 255, 47, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.a-m-skills-container img{
+    height: 45px;
+}
+.a-m-s-c-image-container{
+    display: flex;
+}
+.skill-section{
+    margin: 0 10px;
+    padding: 12px 0;
+}
+.skill-section:hover{
+    cursor: pointer;
+}
+.skill-section:hover img{
+    height: 50px;
+}
+.skill-section p{
+    font-family:  "Afacad Flux", sans-serif;
+    color: rgba(236, 236, 236, 0.829);
+    display: none;
+    position: absolute;
+    top: 1500px;
+    left: 0px;
+    color: white;
+}
+.skill-section:hover p{
+    display: inline-block;
 }
