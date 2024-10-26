@@ -21,3 +21,11 @@
     display: flex;
     justify-content: center;
 }
+footer{
+    width: 100%;
+    color: rgba(209, 209, 209, 0.918);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}

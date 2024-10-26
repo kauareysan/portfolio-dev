@@ -9,7 +9,7 @@ export const Contacts = () => {
     <div className='contacts-container'>
         <p id='uptext'>Contato</p>
         <h1>Tem interesse? Entre em contato comigo</h1>
-        <p>Estou sempre disposto a conversar, entre em contato comigo<br/>pelo meu email kauareysan@gmail.com ou pelas redes sociais:</p>
+        <p>Estou sempre disposto a conversar, entre em contato comigo<br/>pelo meu email <span>kauareysan@gmail.com</span> ou pelas redes sociais:</p>
         <div className="c-c-icons">
             <div className="c-c-icon">
                 <a href="#">

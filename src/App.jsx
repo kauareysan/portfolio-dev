@@ -25,6 +25,9 @@ export const App = () => {
       <div className="a-c-contacts">
         <Contacts/>
       </div>
+      <footer>
+        <p>Feito por Kauã Reis</p>
+      </footer>
     </div>
   )
 }
