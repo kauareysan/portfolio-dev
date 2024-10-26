@@ -1,0 +1,27 @@
+.container-projects{
+    color: white;
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-projects h1{
+    font-family: "Playwrite GB S", cursive;
+    font-size: 18pt;
+    color: greenyellow;
+    margin-bottom: 20px;
+}
+.container-projects a{
+    text-decoration: none;
+}
+.soon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 250px;
+    background-color: #252525;
+    border-radius: 25px;
+}

@@ -5,6 +5,7 @@ import { Menu } from './Components/Menu'
 import { Home } from './Components/Home'
 import { AboutMe } from './Components/AboutMe'
 import { Projects } from './Components/Projects'
+import { Contacts } from './Components/Contacts'
 
 export const App = () => {
   return (
@@ -19,7 +20,10 @@ export const App = () => {
         <AboutMe/>
       </div>
       <div className="a-c-projects">
-        
+        <Projects/>
+      </div>
+      <div className="a-c-contacts">
+        <Contacts/>
       </div>
     </div>
   )
