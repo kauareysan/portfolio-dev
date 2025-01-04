@@ -30,9 +30,21 @@
         gap: 60px;
     }
 }
+@media (max-width: 600px){
+    .home-container{
+        margin-top: 20px;
+    }
+}
 @media (max-width: 825px) {
     .home-container{
         flex-direction: column;
-        margin-bottom: 200px;
+        margin-bottom: 500px;
+    }
+    .h-c-text{
+        margin-bottom: -30px;
+    }
+    .h-c-image img{
+        width: 330px;
+        height: auto;
     }
 }
