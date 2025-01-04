@@ -4,7 +4,7 @@ import "./AboutMe.css"
 export const AboutMe = () => {
 
   return (
-    <div className='about-me-container'>
+    <div className='about-me-container' id='about-me'>
         <div className="a-m-image-container">
         <img src="/imagedev2.png" alt="" id='image-dev'/>
           </div>

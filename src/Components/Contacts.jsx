@@ -6,7 +6,7 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export const Contacts = () => {
   return (
-    <div className='contacts-container'>
+    <div className='contacts-container' id='contacts'>
         <p id='uptext'>Contato</p>
         <h1>Tem interesse? Entre em contato comigo</h1>
         <p>Estou sempre disposto a conversar, entre em contato comigo<br/>pelo meu email <span>kauareysan@gmail.com</span> ou pelas redes sociais:</p>

@@ -2,8 +2,10 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 50px 120px;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 0;
+    margin: 0 25px;
 }
 .home-container h1{
     font-size: 40pt;
@@ -22,4 +24,15 @@
     padding: 15px;
     max-width: 600px;
     border-radius: 5px;
+}
+@media (max-width: 1220px) {
+    .home-container{
+        gap: 60px;
+    }
+}
+@media (max-width: 825px) {
+    .home-container{
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
 }
