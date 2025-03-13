@@ -113,3 +113,9 @@
         width: 500px;
     }
 }
+
+@media (max-width: 537px) {
+    .a-m-texto-container{
+        width: 450px;
+    }
+}
