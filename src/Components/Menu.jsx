@@ -4,6 +4,8 @@ import "./Menu.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+
 export const Menu = () => {
   const [activeMenu, setActiveMenu] = useState(true)
 
@@ -14,6 +16,9 @@ export const Menu = () => {
         <a href="#about-me">Sobre Mim</a>
         <a href="#projects">Projetos</a>
         <a href="#contacts">Contato</a>
+        <a href="https://github.com/kauareysan">
+        <GitHubIcon/>
+        </a>
     </nav>
     <div className="icon-comp" onClick={e => (setActiveMenu(false))}>
         <MenuIcon style={{"color": "rgba(255, 255, 255, 0.884)", "width": "30px", "height": "30px"}}/>

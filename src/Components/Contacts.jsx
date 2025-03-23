@@ -12,7 +12,7 @@ export const Contacts = () => {
         <p>Estou sempre disposto a conversar, entre em contato comigo<br/>pelo meu email <span>kauareysan@gmail.com</span> ou pelas redes sociais:</p>
         <div className="c-c-icons">
             <div className="c-c-icon">
-                <a href="#">
+                <a href="https://www.instagram.com/srkaua.d/">
                     <InstagramIcon style={{color: "white"}}/>
                 </a>
             </div>
